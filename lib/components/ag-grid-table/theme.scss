@@ -1,0 +1,36 @@
+@use "node_modules/ag-grid-community/styles" as ag;
+@include ag.grid-styles((
+    theme: quartz
+));
+
+.ag-theme-quartz {
+    --ag-font-family: Inter, Noto Sans Arabic, sans-serif;
+    --ag-font-weight: 500;
+    --ag-font-size: 16px;
+    --ag-header-background-color: #F8FAFC;
+    --ag-header-foreground-color: #94A3B8;
+    --ag-border-color: #F1F5F9;
+    --ag-data-color: #0F172A;
+    --ag-icon-font-color: #94A3B8;
+    --ag-row-height: calc(64px + 32px);
+    --ag-row-hover-color: transparent;
+    --ag-borders: none;
+    --ag-header-column-resize-handle-display: none;
+
+    // icons
+    --ag-icon-font-color-menu: transparent;
+    --ag-icon-image-menu: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gPHBhdGggZD0iTTEuNDk5OTkgMUgxNC41QzE0LjY0NCAxLjA1MDUxIDE0Ljc3NDUgMS4xMzMzMSAxNC44ODE2IDEuMjQyMDZDMTQuOTg4NyAxLjM1MDgyIDE1LjA2OTUgMS40ODI2NCAxNS4xMTc3IDEuNjI3NDJDMTUuMTY2IDEuNzcyMjEgMTUuMTgwNSAxLjkyNjEyIDE1LjE2MDEgMi4wNzczN0MxNS4xMzk2IDIuMjI4NjEgMTUuMDg0OSAyLjM3MzE4IDE1IDIuNUw5Ljk5OTk4IDhWMTVMNS45OTk5OSAxMlY4TDAuOTk5OTg1IDIuNUMwLjkxNTA3NiAyLjM3MzE4IDAuODYwMzIxIDIuMjI4NjEgMC44Mzk5MTMgMi4wNzczN0MwLjgxOTUwNiAxLjkyNjEyIDAuODMzOTg3IDEuNzcyMjEgMC44ODIyNDkgMS42Mjc0MkMwLjkzMDUxMSAxLjQ4MjY0IDEuMDExMjcgMS4zNTA4MiAxLjExODM1IDEuMjQyMDZDMS4yMjU0MiAxLjEzMzMxIDEuMzU1OTcgMS4wNTA1MSAxLjQ5OTk5IDFaIiBzdHJva2U9IiM5NEEzQjgiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4gPC9zdmc+");
+
+    .ag-header {
+        border-radius: 12px;
+        border-bottom: 0;
+
+        &-icon {
+         opacity: 1;
+        }
+    }
+
+    .ag-cell {
+        font-weight: 600;
+    }
+}
