@@ -20,9 +20,9 @@ export const Button: React.FC<ButtonProps> = ({
         className,
         "rounded-lg h-auto shadow-none font-semibold",
         {
-          "bg-white border border-dodgerBlue": isDefault,
-          "text-dodgerBlue enabled:hover:!text-dodgerBlue": isDefault,
-          "bg-dodgerBlue border-0": !danger && isPrimary,
+          "bg-white border border-deepSapphire": isDefault,
+          "text-deepSapphire enabled:hover:!text-deepSapphire": isDefault,
+          "bg-deepSapphire border-0": !danger && isPrimary,
           "text-white enabled:hover:!text-white": !danger && isPrimary,
           "bg-coral !text-white": danger,
         }

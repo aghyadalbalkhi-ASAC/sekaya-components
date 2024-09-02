@@ -4,7 +4,7 @@ export const libTheme: ThemeConfig = {
   token: {
     fontFamily: "Inter, Noto Sans Arabic, sans-serif",
     borderRadius: 8,
-    colorPrimary: "#16637F",
+    colorPrimary: "#154593",
     colorSuccess: "#42C75E",
     colorWarning: "#F6A723",
     colorError: "#ED4F9D",
@@ -21,8 +21,9 @@ export const libTheme: ThemeConfig = {
   },
   components: {
     Progress: {
-      defaultColor: "#16637F",
-      remainingColor: "#E2E8F0",
+      defaultColor: "#154593",
+      colorSuccess: "#154593",
+      remainingColor: "#40b9e4",
       lineBorderRadius: 50,
     },
     Input: {

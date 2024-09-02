@@ -56,13 +56,13 @@ export const Dragger: React.FC<DraggerProps> = ({
   const handleOnDragOver: React.DragEventHandler<HTMLDivElement> = (e) => {
     e.stopPropagation();
     e.preventDefault();
-    e.currentTarget.classList.add("!border-dodgerBlue");
+    e.currentTarget.classList.add("!border-deepSapphire");
   };
 
   const handleOnDragLeave: React.DragEventHandler<HTMLDivElement> = (e) => {
     e.stopPropagation();
     e.preventDefault();
-    e.currentTarget.classList.remove("!border-dodgerBlue");
+    e.currentTarget.classList.remove("!border-deepSapphire");
   };
 
   const handleOnDrop: React.DragEventHandler<HTMLInputElement> = (e) => {
@@ -143,7 +143,7 @@ export const Dragger: React.FC<DraggerProps> = ({
       ))}
       <div
         className={classNames(
-          "basis-full max-h-48 flex flex-col items-center justify-center py-12 bg-ghostWhite rounded-2xl border-dashed border border-gainsboro hover:border-dodgerBlue hover:cursor-pointer transition-colors duration-200",
+          "basis-full max-h-48 flex flex-col items-center justify-center py-12 bg-ghostWhite rounded-2xl border-dashed border border-gainsboro hover:border-deepSapphire hover:cursor-pointer transition-colors duration-200",
           {
             hidden: !multiple && files.length > 0,
           }
@@ -167,7 +167,7 @@ export const Dragger: React.FC<DraggerProps> = ({
             placeholder
           ) : (
             <>
-              <span className="text-dodgerBlue">click_here_to</span>{" "}
+              <span className="text-deepSapphire">click_here_to</span>{" "}
               upload_file_or_drag_and_drop
             </>
           )}

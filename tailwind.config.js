@@ -4,6 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
+        deepSapphire: "#154593",
+        aquaticBlue: "#40b9e4",
         dodgerBlue: "#16637F",
         midnightBlue: "#0F172A",
         ceruleanBlue: "#2563EB",

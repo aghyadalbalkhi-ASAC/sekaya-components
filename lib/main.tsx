@@ -49,7 +49,7 @@ export const ConfigProvider: React.FC<ConfigProviderProps> = ({
           token: {
             fontFamily: "Inter, Noto Sans Arabic, sans-serif",
             borderRadius: 8,
-            colorPrimary: "#16637F",
+            colorPrimary: "#154593",
             colorSuccess: "#42C75E",
             colorWarning: "#F6A723",
             colorError: "#ED4F9D",

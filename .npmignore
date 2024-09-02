@@ -1,0 +1,15 @@
+# Directories that should be ignored
+.storybook/
+lib/
+node_modules/
+
+# Configuration files that are typically not needed in the published package
+.eslintrc.cjs
+.gitignore
+package-lock.json
+postcss.config.js
+tailwind.config.js
+tsconfig.build.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
