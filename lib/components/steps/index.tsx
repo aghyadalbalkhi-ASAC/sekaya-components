@@ -43,7 +43,7 @@ export const Steps: React.FC<StepsProps> = ({
               "relative flex-1 flex flex-col gap-y-2 items-center after:absolute after:top-4 after:-translate-y-1/2 after:start-1/2 after:content-[''] after:border-solid after:w-full after:border-b-2 after:last:content-none",
               {
                 "after:border-gainsboro": step >= state,
-                "after:border-dodgerBlue": step < state,
+                "after:border-[#3292C9]": step < state,
               }
             )}
           >
@@ -53,7 +53,7 @@ export const Steps: React.FC<StepsProps> = ({
                 "relative z-20 flex justify-center items-center text-white border-solid border border-ghostWhite font-bold rounded-full h-8 w-8  hover:cursor-pointer",
                 {
                   "bg-gainsboro": step > state,
-                  "bg-dodgerBlue": step <= state,
+                  "bg-[#3292C9]": step <= state,
                 }
               )}
             >
